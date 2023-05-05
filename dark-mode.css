@@ -1,0 +1,27 @@
+
+
+
+body {
+   background: rgb(29, 29, 29);
+   color: #fff;
+   transition: 1s;
+}
+#header {
+   width: 100%;
+}
+
+#switchMode {
+   padding: 10px 15px;
+   background-color: #fff;
+   color: #000;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   transition: .5s;
+}
+
+#switchMode:hover {
+   background: linear-gradient(to bottom, red, yellow, orange);
+}
+
+

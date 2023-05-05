@@ -1,3 +1,16 @@
+let switchMode = document.getElementById("switchMode");
+
+switchMode.onclick = function ()  {
+   let theme = document.getElementById("theme");
+
+   if (theme.getAttribute("href") == "light-mode.css") {
+      theme.href = "dark-mode.css";
+   } else {
+      theme.href ="light-mode.css";
+   }
+}
+
+
 //document.querySelector('.themetoggle').addEventListener('click', (event) => {
 //   event.preventDefault();
 //   if (localStorage.getItem('theme') === 'dark') {
